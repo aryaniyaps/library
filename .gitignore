@@ -15,5 +15,8 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Python
+.venv
+
 # Pytest
 .pytest_cache
