@@ -20,3 +20,6 @@
 
 # Pytest
 .pytest_cache
+
+# Docker
+data
