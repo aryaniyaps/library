@@ -6,8 +6,12 @@
   },
   "code-runner.runInTerminal": true,
   "python.formatting.provider": "black",
-  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.typeCheckingMode": "basic",
   "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--rcfile",
+    ".pylintrc"
+  ],
   "python.linting.enabled": true,
   "python.terminal.activateEnvironment": false,
   "python.globalModuleInstallation": true

@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  server:
+    build:
+      context: "./server"
+      target: "development"
+    container_name: server
+    restart: on-failure
+    command: "scripts/run-dev.sh"
+    working_dir: "/server/"
+    environment:
+      DEBUG: true
+      DATABASE_URL: "postgresql+psycopg2://library:library@postgres:5432/library"
+    volumes:
+      - ./server:/server
+    ports:
+      - "5000:5000"
+      - "8181:8181"
+    networks:
+      - server
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    restart: on-failure
+    environment:
+      POSTGRES_USER: "library"
+      POSTGRES_PASSWORD: "library"
+      POSTGRES_DB: "library"
+    networks:
+      - server
+    volumes:
+      - ./data/postgres:/data/postgres
+    ports:
+      - "5432:5432"
+
+networks:
+  server:
+    driver: bridge
