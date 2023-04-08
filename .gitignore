@@ -17,6 +17,7 @@
 
 # Python
 .venv
+__pycache__
 
 # Pytest
 .pytest_cache
