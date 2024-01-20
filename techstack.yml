@@ -1,0 +1,240 @@
+repo_name: aryaniyaps/library
+report_id: 991f766fff4f7c4df41ecc913e4c2703
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-20T08:12:32+00:00'
+requested_by: aryaniyaps
+provider: github
+branch: main
+detected_tools_count: 18
+tools:
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/aryaniyaps/library
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/aryaniyaps/library
+  detection_source: Repo Metadata
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 2.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/aryaniyaps/library
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aryaniyaps/library
+  detection_source: Repo Metadata
+- name: Gunicorn
+  description: A Python WSGI HTTP Server for UNIX
+  website_url: http://gunicorn.org/
+  version: 20.1.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.17.2
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/aryaniyaps/library
+  detection_source: Repo Metadata
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: falcon
+  description: An unladen web framework for building APIs and app backends
+  package_url: https://pypi.org/project/falcon
+  version: 3.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20257/default_c011fd31f7e9af58e2e3e8a82a6acdf8662ecdb6.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: pytest-timeout
+  description: Py.test plugin to abort hanging tests
+  package_url: https://pypi.org/project/pytest-timeout
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
+- name: python-decouple
+  description: Strict separation of settings from code
+  package_url: https://pypi.org/project/python-decouple
+  version: '3.8'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20545/default_7b61da87043cab6a451d00283941da078ee5c9d9.png
+  detection_source_url: https://github.com/aryaniyaps/library/blob/main/server/Pipfile.lock
+  detection_source: server/Pipfile
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2023-04-08 07:06:43.000000000 Z
